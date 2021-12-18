@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
-CORS_ORIGIN_ALLOWED_ALL = True
+CORS_ORIGIN_ALLOWED = [
+    'http://localhost:8080'
+]
 
 # Application definition
 
